@@ -1,10 +1,11 @@
 #!/usr/bin/env ruby
 
 require_relative '../lib/move.rb'
+bbard = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 
 # Code your CLI Here
 puts("Welcome to Tic Tac Toe!")
-bbard = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(bbard)
 puts(""Where would you like to go?"")
 input = gets.strip
